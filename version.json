@@ -1,7 +1,7 @@
 {
-  "version": 29,
+  "version": 30,
   "file": "tw_dashboard.py",
-  "sha256": "c038e1252a5fad5a059f57cac9befbbbebe33d322c67b580e06bb7aff18adfea",
-  "notes": "小工具可調整大小、點擊看走勢;市場總覽移到上方;漲跌停亮燈;新增自動更新",
+  "sha256": "918ed1dfaec40b320f35cdbaf7ffb81110cb7f63c0ef5143f17b5e168c23213c",
+  "notes": "內建更新來源,同事安裝後不需設定即可自動收到更新",
   "date": "2026-11-24"
 }

@@ -35,7 +35,7 @@ from datetime import datetime, timedelta, timezone
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 PORT = 8765
-APP_VERSION = 29                 # 自動更新用的版本號(整數)
+APP_VERSION = 30                 # 自動更新用的版本號(整數)
 CACHE_SECONDS = 540      # 日資料快取
 RT_CACHE_SECONDS = 15    # 即時報價快取
 TW_TZ = timezone(timedelta(hours=8))
@@ -3690,7 +3690,7 @@ def us_history(symbol, months):
 import hashlib
 import shutil
 
-DEFAULT_UPDATE_REPO = ""          # 例:https://github.com/帳號/tw-dashboard(設定後同事不需自行輸入)
+DEFAULT_UPDATE_REPO = "https://github.com/hec00914/tw-dashboard"   # 預設更新來源(同事不需自行輸入)
 UPDATE_CHECK_HOURS = 6
 _upd = {"at": 0.0, "repo": "", "info": None, "error": ""}
 _upd_lock = threading.Lock()
